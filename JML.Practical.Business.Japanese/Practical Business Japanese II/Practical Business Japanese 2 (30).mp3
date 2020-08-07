@@ -1,0 +1,2916 @@
+
+
+
+
+	
+	
+	
+	
+	
+	
+ 	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+	
+		
+	
+		
+	
+		
+			<meta name="keywords" content="Practical,Business,Japanese,Music"/>
+			<meta name="description" content="Practical Business Japanese 2 (30) - eSnips, share anything"/>
+		 
+	
+		
+		
+		
+		<link href="http://res0.esnips.com/media/css/site_style.css" rel="stylesheet" type="text/css">
+	
+		<link href="http://res0.esnips.com/util/window/window.css" rel="stylesheet" type="text/css">
+
+		
+			
+
+
+
+
+
+
+<link href="http://res0.esnips.com/media/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css">
+
+<link href="http://res0.esnips.com/viewdocument/item_style.css" rel="stylesheet" type="text/css">
+
+		
+		
+	
+		<script type="text/javascript" src="http://res0.esnips.com/media/js/jquery.js"></script>
+
+		<script type="text/javascript" src="http://res0.esnips.com/media/js/main_functions.js"></script>
+
+		<script type="text/javascript" src="http://res0.esnips.com/util/main_new.js"></script>
+
+		<script type="text/javascript" src="http://res0.esnips.com/media/js/jquery_forms.js"></script>
+
+		<script type="text/javascript" src="http://res0.esnips.com/media/js/jquery.zrssfeed.min.js"></script>
+
+		<script type="text/javascript" src="http://res0.esnips.com/media/js/jquery.vticker.js"></script>
+
+		
+			
+
+
+
+
+
+
+<script type="text/javascript" src="http://res0.esnips.com/media/js/jquery.lightbox-0.5.pack.js"></script>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-3980696689991450");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-3980696689991450", "viewer_200x200");
+GA_googleAddSlot("ca-pub-3980696689991450", "Viewer_250x250_right_bottom");
+GA_googleAddSlot("ca-pub-3980696689991450", "viewer_468x60");
+GA_googleAddSlot("ca-pub-3980696689991450", "Viewer_728x90_top");
+GA_googleAddSlot("ca-pub-3980696689991450", "viewr_bottom_468x90");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<script type="text/javascript" src="http://res0.esnips.com/viewdocument/more_functions.js"></script>
+
+<script type="text/javascript" src="http://res0.esnips.com/3rd/media/video14.js"></script>
+
+  
+<script language="javascript">
+
+
+	function ns_SendPostBack(eventTarget, eventArgument) 
+	{
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf('netscape') > -1) {
+			theform = document.forms['FormViewDocument'];
+		}
+		else {
+			theform = document.FormViewDocument;
+		}
+
+		theform.ns_EventTarget.value   = eventTarget.split('$').join(':');
+		theform.ns_EventArgument.value = eventArgument;
+		
+		theform.submit();
+	}
+	
+
+function selectHTML(elementID)
+{
+	document.getElementById(elementID).select();
+}
+
+
+
+
+function ns_DeleteFromScribd(documentUUID) 
+{
+	ns_SendPostBack('deleteFromScribd', documentUUID);
+}
+
+//function ns_Send2Mobile(documentUUID) 
+//{
+//	document.getElementById('refreshMobileData').value='false';
+//	alert('documentUUID = ' + documentUUID);
+//	ns_SendPostBack('send2Mobile', documentUUID);
+//}
+
+function ns_Send2Mobile(documentUUID) 
+{	alert(9);
+	$('#FormViewDocument > input[name="ns_EventTarget"]').value = 'send2Mobile';
+	$('#FormViewDocument > input[name="ns_EventArgument"]').value = documentUUID;
+	$('#FormViewDocument').submit();
+}
+
+function performAddComment(type)
+{	
+	ns_SendPostBack('new' + type + 'Comment', '51d8f29f-a1b4-4a29-bc31-722cb08a89ee');
+}
+
+function backMe()
+{
+	//document.location.href="/doc/" + '5cca6f4c-8799-420a-a797-8c37fba586cd';
+}
+
+function ns_NewBaseComment(type) 
+{
+	
+		showLoginWindow(performAddComment, type);
+	
+	
+	
+}	
+
+function CatchUnload(){
+	
+	var theform;
+	if (window.navigator.appName.toLowerCase().indexOf('netscape') > -1) {
+		theform = document.forms['FormViewDocument'];
+	}
+	else {
+		theform = document.FormViewDocument;
+	}
+
+	theform.ns_EventTarget.value   ='ref';
+	//alert('out!');
+}	
+function onTimeout(){
+	   window.location = "/_t_/Practical Business Japanese 2 (30).mp3";
+	  }
+
+
+function CopyToClipboard(id)
+{
+   var obj = document.getElementById(id);
+   obj.focus();
+   obj.select();
+   if(window.clipboardData){ var r=clipboardData.setData('Text',obj.value); return 1; } else return 0 
+}
+
+</script>
+
+
+  </script>
+ 
+		
+		
+			  <script type="text/javascript" src="http://res0.esnips.com/media/js/flowplayer-3.2.4.min.js"></script>
+
+		
+		
+		
+		<!--[if IE 6]>
+			<link href="http://res0.esnips.com/media/css/global_ie6.css" rel="stylesheet" type="text/css">
+
+			   <script type="text/javascript" src="http://res0.esnips.com/media/js/jquery.pngFix.js"></script>
+
+		<![endif]-->
+		
+	</head>
+
+
+	<body>
+		<div class="bodyCover">
+			<!-- ################## Header v  ################## -->
+							
+				
+					 
+						
+					 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Facebook Connect -->
+	<div id="fb-root"></div>
+	<script>
+		var email = '';		
+		(function(){
+			var e = document.createElement('script'); e.async = true;
+   			e.src = document.location.protocol +'//connect.facebook.net/en_US/all.js';
+   			 document.getElementById('fb-root').appendChild(e);
+  		}());
+		window.fbAsyncInit = function() {
+    			FB.init({appId: '118610141493872', status: true,session: true, cookie: true,xfbml: true});
+		 	//FB.init({appId: '372851285608', status: true,xfbml: true , session: true, cookie: true});
+		}
+
+		function facebook_onlogin(redirct){					
+			var uid = FB.getSession().uid;
+			//$('#facebookConnect').hide();
+		       var img_f = "http://res0.esnips.com/media/images/header_new/f_logo.png";
+			$('#facebookConnected').html("<img src='"+img_f+"' alt='connected with facebook' title='connected with facebook' />");
+			if(redirct){
+				FB.api('/me', function(response) {
+					email = response.first_name+"@"+uid+".fb";
+					if(email !=""){window.location = '/NewAccountAction.ns?action=join&email='+email+'&ns_EventArgument=web&ns_EventTarget=join&ns_LocaTimezoneOffset=-120&terms&fbUser=true';}
+				});			
+			}
+			FB.XFBML.parse();			
+		};
+	</script>
+<!-- End Facebook Connect -->
+
+
+
+	<div class="headerCover">
+				<div class="logoNsearch">
+					<div class="logo">
+						<a href="/"><img src="http://res0.esnips.com/media/images/logo.png" alt="esnips.com" title="esnips.com"/></a>
+					</div>
+					<div class="searchBarCover">
+						<p>Search for pictures, video, audio and any other files</p>
+						<form name="FormSearchTags" method="post" action="/SearchTagsAction.ns" id="FormSearchTags">
+							<input type="hidden" name="mode" value="99" id="mode">
+							<div class="searchBarN">				
+      							<div class="searchCoverN">
+          							<input type="text" name="searchTerm" maxlength="65" value="Search (e.g. rock, video, fun)" id="txtSearchTerm" title=" Search (e.g. rock, video, fun)">                       
+									<div class="searchAllFiles" title="Category">
+	             						<span class="selection">All Files</span>
+	                        			<div class="searchAllFilesCover">
+	                          			                                 
+	                          				<div class="searchAllFilesChoices">
+	                              				<ul>
+										<li class="firstItem"><a rel="99" class="imOn"><span>All Files</span><span class="arr_d"></span></a></li>
+	                                					<li><a rel="3" ><span>Video</span><span class="arr_d"></span></a></a></li>
+	                                 					<li><a rel="4" ><span>Audio</span><span class="arr_d"></span></a></a></li>
+	                                 					<li><a rel="2" ><span>Images</span><span class="arr_d"></span></a></a></li>
+	                                 					<li><a rel="6" ><span>Users</span><span class="arr_d"></span></a></a></li>                                           
+	                                 					<li><a rel="1" ><span>Folder</span><span class="arr_d"></span></a></a></li>
+	                                 					<li class="lastItem"><a rel="0" ><span>Others</span><span class="arr_d"></span></a></a></li>
+	                              				</ul>
+	                              				<script type="text/javascript">
+	                              				    if ("99" != "" && "99" != 99) {
+	                              				        $(".searchAllFilesChoices > ul  a").removeClass('imOn');
+	                              				        $(".searchAllFilesChoices > ul  a[rel = 99]").addClass('imOn');
+	                              				        $(".selection").html($(".searchAllFilesChoices > ul  a[rel = 99]").html());
+	                              				    }
+												</script>                                 
+											</div>
+	                            		</div>
+                            		</div> 
+								</div>
+								
+               						<div class="searchBtnN">
+									<button class="btnSearchN" id="btnSearchN" type="submit" disabled="disabled"><img title="Search"  src="/media/images/header_new/search_btn.png"/></button>
+								</div>
+							</div>
+						</form>					
+					</div>
+					<div class="login_upld">
+	 					<div class="quickLnks">
+							
+								<div class="Sign">
+									<div class="facebookConnect" id="facebookConnect">		   	
+										<fb:login-button onlogin="facebook_onlogin('true');" perms="email,user_birthday"></fb:login-button>				
+									</div>
+									<span class="divider">|</span> 
+									
+										<a class="out" style="cursor:pointer;" href="/usersignin/index.jsp" title="Sign-in">Sign-In</a>
+									
+									<span class="divider">|</span>        
+									<a class="out" href="/NewAccountAction.ns?action=init" title="Sign-up">Sign-Up</a>
+								</div>
+							
+					        				
+						</div>
+
+						<div class="upldBtn">
+							
+							
+				 				<img src="http://res0.esnips.com/media/images/header_new/upload_files_button.png" alt="Upload Now" title="Upload Now" onclick="showLoginWindow(goToUpload,null)" />
+							
+						</div>
+					</div>
+				</div>
+				<div id="line" class="marketingZone">					
+					<a href="http://store.appsnips.com" target="_blank">AppSnips</a>
+					<a href="http://esnipsblog.wordpress.com/" target="_blank">eSnips Blog</a>
+					<a href="http://res0.esnips.com/escentral/client/esnips.exe">New Toolbar</a>
+					<a href="http://m.esnips.com" target="_blank">eSnips Mobile</a>			
+					
+				</div>
+				<div class="d_shadow_b"></div>
+				
+				<div class="fix"></div>
+
+				<div class="main_box banner_top">
+					<div class="main_box_top">
+						<div class="top_left"></div>
+						<div class="top_middel"></div>
+						<div class="top_right"></div>						
+					</div>
+					<div class="main_box_middle">
+						<div class="content">
+							<div class="inner_content_banner">
+								<div class="banner_top_left">
+									<!-- ca-pub-3980696689991450/Viewer_728x90_top -->
+									<script type='text/javascript'>
+									    GA_googleFillSlot("Viewer_728x90_top");
+									</script>
+								</div>
+								<div class="banner_top_right">
+									<a  href="/NewAccountAction.ns?action=init"><img src="http://res0.esnips.com/media/images/banners/top-banner_216X90.gif" alt="Join Now" title="Join Now" /></a>
+								</div>
+								<div class="fix"></div>
+							</div>
+							<div class="fix"></div>
+						</div>
+					</div>
+					<div class="main_box_bottom">
+						<div class="bottom_left"></div>
+						<div class="bottom_middel"></div>
+						<div class="bottom_right"></div>						
+					</div>
+				</div>
+				<div class="fix"></div>				
+			</div>	
+			
+			
+				<div id="divSelectedFiles">
+				   
+				</div>			
+			
+			<script src="http://connect.facebook.net/en_US/all.js"></script>
+				
+				
+			
+			
+			
+			<!-- ################## Content v  ################## -->
+			
+
+
+
+
+
+
+
+
+
+
+<div class="main_content">
+	<form name="FormViewDocument" method="post" action="/ViewDocumentAction.ns" id="FormViewDocument">
+		<input type="hidden" name="ns_EventTarget" value="" />
+		<input type="hidden" name="ns_EventArgument" value="" />
+		<input type="hidden" name="referrer" value="http://www.esnips.com/nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd/ts_id/3439870799648/ns_flash/file88.mp3"/>
+		<input type="hidden" name="ID" value="5cca6f4c-8799-420a-a797-8c37fba586cd"/>
+		<input type="hidden" name="displayName" value="" id="displayName">    
+		<input type="hidden" name="mobileUserUUID" value="" id="mobileUserUUID">
+		
+		
+		
+		
+
+		<div class="main_box item_left">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+					<div class="inner_content">
+					
+					
+					
+					<h2 class="title">Practical Business Japanese 2 (30).mp3</h2>
+					<div class="usr_info">
+						<a class="usr_name" onClick="javascript:urchinTracker('/events/viewer/link/userLink1');" href="/user/siloha">
+							siloha 
+						</a>
+						<span class="divider"> | </span>
+						<a javascript: urchinTracker('/events/viewer/action/folder1'); href='/webfolder/d7c0b74a-5aeb-440e-ac5a-89bf500583cd' target="_top">
+        						Japanese Listeni...
+        					</a>
+        		        		<span class="divider"> | </span>
+        					<span>1 Views</span>
+						<div class="prev_next">
+						
+							<a  href='/doc/8534f391-f301-4a38-a65d-5d02aec61533/Practical-Business-Japanese-2-(77)/nsprev' onClick="javascript:urchinTracker('/events/viewer/prevDoc');" >< previous</a>
+						
+						
+						
+							<span class="divider"> | </span>
+							<a  href='/doc/025a88c1-06c3-48b8-8c07-873b7a700836/Practical-Business-Japanese-2-(31)/nsnext' onClick="javascript:urchinTracker('/events/viewer/nextDoc');">next ></a>				
+										
+					       	
+       				 	</div>
+					</div>
+
+					<!--- the document content -->
+					<div class="content_container">
+						
+							
+						
+						
+							
+								
+						  		
+								
+						  
+						  
+							
+								                              
+							
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="http://res0.esnips.com/3rd/media/music12.js"></script>
+
+
+
+
+<table border="0" cellpadding="2" cellspacing="2" id="tableMain">
+			<tr>
+
+					<td>
+					
+					<div id="divPlayer">
+					        
+							
+							
+							
+							
+								  
+									<script language="JavaScript">
+								 		// makeFlashMP3Player("/nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd", true);
+										var flag = 1;
+									</script>
+									<a href="/nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd/ts_id/3439870799648/ns_flash/file88.mp3" style="display:block;width:583px;height:325px;" id="player"></a>
+							      	 								
+
+								  
+								  
+							
+							
+							
+							
+
+					        
+					</div>			
+					</td>
+            </tr>
+</table>
+
+
+
+<script language="JavaScript">
+if(flag){
+flowplayer("player", "/3rd/flowplayer/flowplayer.commercial-3.2.5-2.swf", {
+	// commercial version requires a product key
+	key: '#$840723007ce8406be7a',
+
+	// company logo under the screen
+	logo: {
+		url: '/media/images/logo-esnips-2.png',
+		fullscreenOnly: false,
+		displayTime: 5,
+		top: '15px',
+		left: '15px'
+	},
+
+	// gradually show on mouseover
+	onMouseOver: function() {
+		this.getPlugin("logo").fadeTo(1, 1000);
+	},
+
+	// gradually hide on mouseout
+	onMouseOut: function() {
+		this.getPlugin("logo").fadeTo(0, 1100);
+	}
+
+});
+}
+</script>
+
+						  
+					
+					
+				
+			</div>
+			<!--- end  document content -->
+					<div class="fix"></div>
+					<div class="dl_fav">
+						
+					<!-- image sizes -->
+					
+					
+						<div class="info-block" id="sizes"></div>
+					
+					<!-- end image sizes -->
+					
+					
+					
+					
+					
+						
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+	
+<script>
+var myNewurl = "";
+var fileExtItem = "/download/";
+var  dataString = "";
+$(document).ready(function(){debugger;
+     //setDownloadLocation();
+     fileExtItem += ".mp3"; 
+     $("#download").show();
+     var allInputs = $("#FormViewDocument > input");
+	
+     for(i=0 ; i<allInputs.length;i++)
+     { 
+		if(i==0)
+		{
+			if(allInputs.eq(i).attr("name") == "ns_EventTarget"){dataString += "ns_EventTarget=return";}
+			else{dataString += allInputs.eq(i).attr("name")+"="+allInputs.eq(i).val();}
+		}
+		else
+		{
+			dataString +=  "&";
+			if(allInputs.eq(i).attr("name") == "ns_EventTarget"){dataString += "ns_EventTarget=return";}
+			else{dataString += allInputs.eq(i).attr("name")+"="+allInputs.eq(i).val();}
+		}
+        
+     }
+     
+     var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+	 
+    dataString +=  "&";	
+    dataString += 'return=return';
+    dataString +=  "&";
+    dataString += 'browserAgent=' + is_chrome;	
+	$.ajax({
+   	type: "POST",
+   	url: "/ActionRetrieveDocument.ns",
+	async: false,
+	data: dataString,
+	dataType: "html",
+	cache: false,
+  	success: function(html){
+			//alert(html);
+			
+			if(html.indexOf("pathLink", 0) > 0)
+			{	//alert("in");
+				var $mydata = $(html);
+				$("#lnkChk").html($mydata);
+				var myLink = $("#lnkChk #pathLink").html();
+				//alert(myLink);
+				if(myLink != null && myLink != 'error'){$("#download").attr("href" ,myLink);}
+				else{return;}			
+				$("body").find("#lnkChk").remove();
+				//alert($mydata.find("#pathLink").length);
+			}
+			return false;
+		
+		
+	}
+ });
+
+
+});
+
+
+function setDownloadLocation(){
+	hpf = document.getElementById('downloadWindowF');
+ 	hpf.style.top=findY(document.getElementById('favorite'))+'px';
+ 	hpf.style.left= findX(document.getElementById('favorite'))+0+'px';
+	hp = document.getElementById('downloadWindow');
+ 	hp.style.top=findY(document.getElementById('favorite'))+'px';
+ 	hp.style.left= findX(document.getElementById('favorite'))+0+'px';
+ 		
+}
+
+function preDownload(){
+	if(typeof(window.esnp)=="object"){
+		document.getElementById('download').href='/nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd/?action=forceDL';		
+	}else{
+		document.getElementById('downloadWindowF').style.display='';
+		document.getElementById('downloadWindow').style.display='';	
+		document.getElementById('windowContentDownloader').style.display='';
+		document.getElementById('windowContentFile').style.display='none';
+		document.getElementById('downloadTheFile').style.display='none';
+		document.getElementById('downloadToolbar').style.display='';
+		document.getElementById('skipLink').style.display='';
+		hideEmbeddedObjects();
+	}	
+	urchinTracker("/download/.mp3");  
+}
+
+
+function closePreDownload(){
+
+	document.getElementById('downloadWindowF').style.display='none';
+	document.getElementById('downloadWindow').style.display='none';
+	showEmbeddedObjects();
+	
+}
+
+function closeAndDownloadFile(){
+	document.getElementById('downloadWindowF').style.display='none';
+	document.getElementById('downloadWindow').style.display='none';
+	showEmbeddedObjects();
+	urchinTracker("/download/.downloadfile");
+}
+
+function skipDownload(){
+	document.getElementById('downloadWindowF').style.display='none';
+	document.getElementById('downloadWindow').style.display='none';
+	showEmbeddedObjects();
+	urchinTracker("/download/.skip");
+}
+
+function changeAndDownload(){
+	document.getElementById('windowContentDownloader').style.display='none';
+	document.getElementById('windowContentFile').style.display='';
+	document.getElementById('downloadTheFile').style.display='';
+	document.getElementById('downloadToolbar').style.display='none';	
+	document.getElementById('skipLink').style.display='none';		
+
+	urchinTracker("/download/.desktop");
+	
+}
+
+</script>
+
+
+
+
+		<a class="image-link_new" href='/nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd/?action=forceDL' onClick='return checkdownload(event)' id="download"><img src="http://res0.esnips.com/media/images/button_download.png" alt="Download" title="Download"></img></a>
+		<!--<div id="lnkChk" style="visibility:hidden;position:absolute;left:-5500px;top:-5000px;"></div>-->
+		<div id="lnkChk" style="border:2px solid red;visibility:hidden;"></div>
+
+<!-- send2mobile button -->
+			<div style="display:none">	
+						
+							
+								
+									<a class="image-link_new" style="margin-left: 5px;" href="javascript:ns_Send2Mobile('5cca6f4c-8799-420a-a797-8c37fba586cd')">
+									<img border="0" alt="send to mobile" align="absmiddle" src="http://res0.esnips.com/images/send-to-mobile-btn.png"></img></a>
+								
+							
+							
+
+				
+			</div>
+ <!-- end send2mobile button -->
+
+<div class="doc_lnks">
+	
+		<div class="fbLike"><fb:like href="http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd" show_faces="false" layout="button_count" font="arial"></fb:like></div>
+	
+	<div class="likeIt">
+		<a title="I like it"" href="javascript:vote('5cca6f4c-8799-420a-a797-8c37fba586cd', '1')"><img src="http://res0.esnips.com/viewdocument/images/icon_heart.png" border="0" /></a>
+		
+	</div>
+
+
+	
+		<a class="doc_inner_lnks" id='flag' href="javascript:void(0);" title="Flag as Inappropriate" onClick="javascript: flagAsInappropriate('flag','5cca6f4c-8799-420a-a797-8c37fba586cd','/viewdocument/images/flag_indicator.gif','/viewdocument/images/flag_added.gif'); urchinTracker('/events/viewer/action/flag');"> Flag as Inappropriate</a>
+	
+
+
+</div>
+ <div class="fix"></div>
+<div class="tabs_cover">
+	<ul class="htabs">
+		<li class="tab_on"><a class="share " href="#share">Share</a></li>
+		<li><a class="comment" href="#comment">Comment</a></li>
+		<li><a class="filedetails" href="#filedetails">File Details</a></li>
+		<li><a class="savefile" href="#savefile">Save File</a></li>
+	</ul>
+	<div class="tabs">
+		<div id="share" class="tab" style="display: block;"><ul>
+			<!-- AddThis Button BEGIN -->
+			<div class="custom_images">
+				<a onClick="javascript: urchinTracker('/events/viewer/action/twitterShare');" class="addthis_button_twitter"><img src="/media/images/icon_twitter.png" alt="Twitter" /></a>
+				<a onClick="javascript: urchinTracker('/events/viewer/action/facebookShare');" class="addthis_button_facebook"><img src="/media/images/icon_facebook.png" alt="Facebook" /></a>
+				<a onClick="javascript: urchinTracker('/events/viewer/action/myspaceShare');" class="addthis_button_myspace"><img src="/media/images/icon_myspace.png"  alt="MySpace" /></a>
+				<a onClick="javascript: urchinTracker('/events/viewer/action/diggShare');" class="addthis_button_digg"><img src="/media/images/icon_dude.png" alt="Digg" /></a>
+						
+							
+								<a onClick="javascript: urchinTracker('/events/viewer/action/share');"  class="image-link" id="share" href='/selectedfile/emaildoc/5cca6f4c-8799-420a-a797-8c37fba586cd' ><img src="/media/images/icon_envelope.png" alt='Share File' /></a>
+							
+							
+								
+	
+			</div>
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=esnips"></script>
+			<!-- AddThis Button END -->
+			<div class="fix"></div>			
+			<div class="share_content">
+				
+					
+					<span>URL:</span> <input id="txtPermalink" onfocus='javascript:selectHTML("txtPermalink")' name="permalink"  type="text" value="http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd/Practical-Business-Japanese-2-(30)" size="50" readonly="true"> <a onclick="CopyToClipboard('txtPermalink')" class="copy_btn">Copy</a>
+					
+						
+						<span>Embed:</span> <input id="txtEmbed" onfocus='javascript:selectHTML("txtEmbed")' name="widget"  type="text" value="&lt;table bgcolor=&quot;#000000&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;embed quality=&quot;high&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; type=&quot;application/x-shockwave-flash&quot; bgcolor=&quot;#000&quot; width=&quot;328&quot; height=&quot;94&quot; src=&quot;http://www.esnips.com//escentral/images/widgets/flash/esnips_player.swf&quot; flashvars=&quot;theTheme=blue&amp;amp;autoPlay=no&amp;amp;theFile=http://www.esnips.com//nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd&amp;amp;theName=Practical Business Japanese 2 (30)&amp;amp;thePlayerURL=http://www.esnips.com//escentral/images/widgets/flash/mp3WidgetPlayer.swf&quot;&gt;&lt;/embed&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; style=&quot;font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:2px; color:#FFFFFF; text-decoration:none ; ; font-size:10px; font-weight:bold&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/CreateWidgetAction.ns?type=0&amp;objectid=5cca6f4c-8799-420a-a797-8c37fba586cd&quot;&gt;     Get this widget &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd/Practical-Business-Japanese-2-(30)/?widget=flash_player_esnips_blue&quot;&gt;     Track details  &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FF6600; text-decoration:none&quot; href=&quot;http://www.esnips.com//adserver/?action=visit&amp;cid=player_dna&amp;url=/socialdna&quot;&gt; 		eSnips Social DNA    &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"  size="50" readonly="true" style="border: 1px solid #CCCCCC;">												  
+					
+				
+			</div>
+		</div>
+		
+		<div id="comment" class="tab" style="display:none;">
+			
+			
+			
+			
+		</div>
+		
+		
+		
+		<div id="filedetails" class="tab" style="display: none;">
+			<div class="filedetails_content">
+				
+					
+					
+				
+
+
+
+
+
+
+
+
+
+<div id="main_details">
+
+	<div class="description" id="description">
+		<p></p>
+			   
+		
+	</div>
+
+<p>
+Added to <a href='/webfolder/d7c0b74a-5aeb-440e-ac5a-89bf500583cd' target="_top" onClick="javascript:urchinTracker('/events/viewer/link/folder2');"> 
+Japanese Listeni...</a> folder
+on Jan. 19 2011
+</p>
+<p>
+<span>Size: 1.2MB</span>
+</p>
+</div>
+  
+<!--
+
+	<div class="info-block" align="center">
+		<a onClick="javascript:urchinTracker('/events/viewer/link/userPhoto');" id="photo" href="/user/siloha">
+			<img src="http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6" style="border: none;"></img>
+		</a>
+	</div>
+
+Uploaded by: 	<a onClick="javascript:urchinTracker('/events/viewer/link/userLink1');" class="UserProfile" href="/user/siloha">
+											siloha 
+										</a>
+										
+										
+										From Viet Nam 
+										
+Joined on Sep. 26 2007
+
+	
+<span id="philosophy">
+											"Return HOME with all capacity of mind and heart!"
+										   </span>
+
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+													
+													
+															
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/tag');" href='/_t_/practical?m=99&amp;q=practical' class="TagLink">
+																	Practical
+																</a>
+															
+																
+																	,
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/tag');" href='/_t_/business?m=99&amp;q=business' class="TagLink">
+																	Business
+																</a>
+															
+																
+																	,
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/tag');" href='/_t_/japanese?m=99&amp;q=japanese' class="TagLink">
+																	Japanese
+																</a>
+															
+																
+																	,
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/tag');" href='/_t_/music?m=99&amp;q=music' class="TagLink">
+																	Music
+																</a>
+															
+												
+													
+													
+
+
+												
+			
+											
+													
+														<a href='/webfolder/d7c0b74a-5aeb-440e-ac5a-89bf500583cd' target="_top" class="CommandLink" onClick="javascript:urchinTracker('/events/viewer/link/folder3');"> Folder </a>Tags:
+															
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/folderTag');" href='/_t_/japaneselisteningi3?m=99&amp;q=japaneselisteningi3' class="TagLink">
+																	japaneselisteningI3
+																</a>
+															
+																
+																	,
+																
+																<a onClick="javascript:urchinTracker('/events/viewer/link/folderTag');" href='/_t_/audio?m=99&amp;q=audio' class="TagLink">
+																	Audio
+																</a>
+															
+													
+													
+																	
+																									
+												
+												
+									
+												
+												 
+											
+												URL: <input id="txtPermalink" onfocus='javascript:selectHTML("txtPermalink")' name="permalink"  type="text" value="http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd/Practical-Business-Japanese-2-(30)" size="50" readonly="true" style="border: 1px solid #CCCCCC;">
+												
+												
+												
+												
+												
+													Embed: <input id="txtEmbed" onfocus='javascript:selectHTML("txtEmbed")' name="widget"  type="text" value="&lt;table bgcolor=&quot;#000000&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;embed quality=&quot;high&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; type=&quot;application/x-shockwave-flash&quot; bgcolor=&quot;#000&quot; width=&quot;328&quot; height=&quot;94&quot; src=&quot;http://www.esnips.com//escentral/images/widgets/flash/esnips_player.swf&quot; flashvars=&quot;theTheme=blue&amp;amp;autoPlay=no&amp;amp;theFile=http://www.esnips.com//nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd&amp;amp;theName=Practical Business Japanese 2 (30)&amp;amp;thePlayerURL=http://www.esnips.com//escentral/images/widgets/flash/mp3WidgetPlayer.swf&quot;&gt;&lt;/embed&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; style=&quot;font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:2px; color:#FFFFFF; text-decoration:none ; ; font-size:10px; font-weight:bold&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/CreateWidgetAction.ns?type=0&amp;objectid=5cca6f4c-8799-420a-a797-8c37fba586cd&quot;&gt;     Get this widget &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd/Practical-Business-Japanese-2-(30)/?widget=flash_player_esnips_blue&quot;&gt;     Track details  &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FF6600; text-decoration:none&quot; href=&quot;http://www.esnips.com//adserver/?action=visit&amp;cid=player_dna&amp;url=/socialdna&quot;&gt; 		eSnips Social DNA    &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"  size="50" readonly="true" style="border: 1px solid #CCCCCC;">												  
+												
+												
+									
+													
+								-->
+			</div>
+		</div>
+
+
+		<div id="savefile" class="tab" style="display: none;">
+									  
+				<a class="image-link" id='favorite' href="javascript:void(0);" onClick="javascript: urchinTracker('/events/viewer/action/addToFav'); addToFavorites('favorite',name,'0','5cca6f4c-8799-420a-a797-8c37fba586cd','/viewdocument/images/favorite_indicator.gif','/viewdocument/images/favorite_added.gif')">Add to Favorites</a>
+			
+		</div>
+	</div>
+</div>
+
+<script>
+
+$(document).ready(function(){
+ //if this is not the first tab, hide it
+ $(".tab:not(:first)").hide();
+ 
+ //to fix u know who
+ $(".tab:first").show();
+ 
+ //when we click one of the tabs
+ $(".htabs a").click(function(){
+
+ $(".htabs li").removeClass('tab_on');
+ $(this).parent("li").addClass('tab_on');
+ //get the ID of the element we need to show
+ stringref = jQuery(this).attr("href").split('#')[1];
+ //hide the tabs that doesn't match the ID
+ $('.tab:not(#'+stringref+')').hide();
+ //fix
+ if (jQuery.browser.msie && jQuery.browser.version.substr(0,3) == "6.0") {
+ $('.tab#' + stringref).show();
+ }
+ else
+ //display our tab fading it in
+ $('.tab#' + stringref).fadeIn();
+ //stay with me
+ return false;
+ });
+ 
+});
+
+</script>
+
+
+
+
+
+
+<div style="display:none;">
+
+<div classs="fix" style="height:10px;">----------------------</div>
+
+
+
+												  
+							<a class="image-link" id='favorite' href="javascript:void(0);" onClick="javascript: urchinTracker('/events/viewer/action/addToFav'); addToFavorites('favorite',name,'0','5cca6f4c-8799-420a-a797-8c37fba586cd','/viewdocument/images/favorite_indicator.gif','/viewdocument/images/favorite_added.gif')">Add to Favorites</a>
+							
+								<a style="background-image: url('/viewdocument/images/icon_quicklist.gif');" onClick="javascript: urchinTracker('/events/viewer/action/addToQList');" class="image-link" id='selfile5cca6f4c-8799-420a-a797-8c37fba586cd' href="javascript:addToSelected('5cca6f4c-8799-420a-a797-8c37fba586cd')" >Add to quicklist</a>
+							
+						
+								
+							<a style="margin-left:5px;" onClick="javascript: urchinTracker('/events/viewer/action/createWidget');" class="image-link" id="widget" href="javascript:ns_SendPostBack('addDocumentWidget', '5cca6f4c-8799-420a-a797-8c37fba586cd')" >MP3 Widgets</a>
+							
+										
+						
+						 
+							<div style="float:left; margin-left:5px;">
+								 
+									<input type="hidden" name="TEXTAREA_ID" value="&lt;table bgcolor=&quot;#000000&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;embed quality=&quot;high&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; type=&quot;application/x-shockwave-flash&quot; bgcolor=&quot;#000&quot; width=&quot;328&quot; height=&quot;94&quot; src=&quot;http://www.esnips.com//escentral/images/widgets/flash/esnips_player.swf&quot; flashvars=&quot;theTheme=blue&amp;amp;autoPlay=no&amp;amp;theFile=http://www.esnips.com//nsdoc/5cca6f4c-8799-420a-a797-8c37fba586cd&amp;amp;theName=Practical Business Japanese 2 (30)&amp;amp;thePlayerURL=http://www.esnips.com//escentral/images/widgets/flash/mp3WidgetPlayer.swf&quot;&gt;&lt;/embed&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; style=&quot;font-family:Verdana, Arial, Helvetica, sans-serif; padding-left:2px; color:#FFFFFF; text-decoration:none ; ; font-size:10px; font-weight:bold&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/CreateWidgetAction.ns?type=0&amp;objectid=5cca6f4c-8799-420a-a797-8c37fba586cd&quot;&gt;     Get this widget &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FFFFFF; text-decoration:none &quot; href=&quot;http://www.esnips.com/doc/5cca6f4c-8799-420a-a797-8c37fba586cd/Practical-Business-Japanese-2-(30)/?widget=flash_player_esnips_blue&quot;&gt;     Track details  &lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;font-size:7px; font-weight:normal;&quot;&gt;|&lt;/td&gt;&lt;td&gt;&lt;a align=&quot;center&quot; style=&quot;color:#FF6600; text-decoration:none&quot; href=&quot;http://www.esnips.com//adserver/?action=visit&amp;cid=player_dna&amp;url=/socialdna&quot;&gt; 		eSnips Social DNA    &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" />
+								
+								
+								<div id="divWildfirePost"></div>
+
+							
+							</div>
+												
+				<div classs="fix" style="height:10px;">----------------------</div>
+						
+</div>
+<div id="debug"></div>
+	
+					<div class="fix"></div>
+						<div class="comment_cover">
+						
+							<h2>Comments</h2>
+							
+								<div class ="item" id="first">
+									<div id="text">Be the first to add a comment</div>
+								</div>
+							
+							<div class="wrapper">
+								<div class="contents">
+									<div class="info-block" id="add-comment" style="display:none;">
+										
+										<div class ="item" id="panel">
+											<span id="text">Add Comment:</span> 
+											<a class="roundButtonShort" href="javascript:ns_NewBaseComment('')">Text</a>
+											<a class="roundButtonShort" href="javascript:ns_NewBaseComment('Audio')">Audio</a>
+											<a class="roundButtonShort" href="javascript:ns_NewBaseComment('Video')">Video</a>
+										</div>
+										<div class="clearBottom"></div>
+									</div> 
+
+									<div class="info-block" id="last">
+										
+										
+									</div> 
+								</div>
+							</div>
+						
+						</div>
+						<div class="fix"></div>
+						<div class="viewr_bottom_468x90" style="text-align:center;">
+							<!-- ca-pub-3980696689991450/viewr_bottom_468x90 -->
+							<script type='text/javascript'>
+								GA_googleFillSlot("viewr_bottom_468x90");
+							</script>		
+								<!-- ca-pub-3980696689991450/viewer_468x60 -->
+								<script type='text/javascript'>
+								GA_googleFillSlot("viewer_468x60");
+								</script>
+						</div>
+						<div class="fix"></div>
+
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+		</div>
+		<div class="main_content_right">	
+			
+			<h2 class="related_title">Related Files</h2>
+				
+					
+						
+							
+							
+					
+
+
+
+
+
+
+
+
+
+<div id="dummyWrapper">
+	
+			<div id="tabs">
+				<ul id="doctabs" class="shadetabs" style="display:none;">
+				
+					<li onClick="javascript: urchinTracker('/events/viewer/action/relatedTab');"><a  href="#" rel="related" class="selected" style="color:#587196">Related</a></li>
+				
+				
+					<li onClick="javascript: urchinTracker('/events/viewer/action/moreFromTab');"><a  href="#" rel="morefromthisfolder" style="color:#587196">More from this folder</a></li>
+				
+				
+				</ul>
+				
+				<div>
+
+				
+				
+				
+					<div id="morefromthisfolder" class="tabcontent">
+						<div class="contents" id="moreFrom">
+							<div id="last">
+								
+									
+									
+									
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (31)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/025a88c1-06c3-48b8-8c07-873b7a700836/Practical-Business-Japanese-2-(31)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/025a88c1-06c3-48b8-8c07-873b7a700836/Practical-Business-Japanese-2-(31)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (31).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (32)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/db2addd2-070a-4d6d-8295-6ac4ab7af077/Practical-Business-Japanese-2-(32)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/db2addd2-070a-4d6d-8295-6ac4ab7af077/Practical-Business-Japanese-2-(32)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (32).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (33)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/160af1b8-b17b-4f9f-b8de-2557a470fa9d/Practical-Business-Japanese-2-(33)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/160af1b8-b17b-4f9f-b8de-2557a470fa9d/Practical-Business-Japanese-2-(33)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (33).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (34)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/3a7d26b1-2dbc-4acb-a7c3-d5c6c88842bf/Practical-Business-Japanese-2-(34)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/3a7d26b1-2dbc-4acb-a7c3-d5c6c88842bf/Practical-Business-Japanese-2-(34)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (34).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (35)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/25669bd1-8a3e-449e-8635-b79fa99bd106/Practical-Business-Japanese-2-(35)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/25669bd1-8a3e-449e-8635-b79fa99bd106/Practical-Business-Japanese-2-(35)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (35).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/moreFromFolder');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Practical Business Japanese 2 (36)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/51d8f29f-a1b4-4a29-bc31-722cb08a89ee/1/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/f56c94ab-fdef-4e61-971b-38bdbb7f9284/Practical-Business-Japanese-2-(36)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/f56c94ab-fdef-4e61-971b-38bdbb7f9284/Practical-Business-Japanese-2-(36)'> 
+			Practical Business Japanese ...
+			<!--Practical Business Japanese 2 (36).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/siloha'>
+                          siloha
+			</a>
+			
+			<span>0 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+						
+
+	
+
+
+								Go to <a onClick="javascript: urchinTracker('/events/viewer/link/userLink2');" class="UserProfile" href='/user/siloha'>siloha</a>'s
+										<a onClick="javascript: urchinTracker('/events/viewer/action/folder2');" href='/webfolder/d7c0b74a-5aeb-440e-ac5a-89bf500583cd' target="_top" class="ContentLinkBold">
+										Japanese Listening I 3 (Disc2)</a> folder...
+							</div>
+						</div>
+						<div class="wrapper">
+						</div>										
+					</div>
+				
+				
+				
+					<div id="related" class="tabcontent">
+						<div class="contents" id="moreFrom">
+							<div id="last">
+								
+									
+									
+									
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='japanese song'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/c94021ab-e5b8-46bf-8ad0-584fbc31844a/2/?du=927a75bf-e022-428f-84b4-7bffd70666f6);'> 
+			<a href='/doc/050dc6fc-016e-47bd-a578-250068ad2da1/japanese-song' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/050dc6fc-016e-47bd-a578-250068ad2da1/japanese-song'> 
+			japanese song.mp3
+			<!--japanese song.mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/machisuzuki13'>
+                          machi_suzuki13
+			</a>
+			
+			<span>2460 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='My Girl (Japanese Version)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url();'> 
+			<a href='/doc/06c951cd-1269-4f46-91ae-958100a0a998/My-Girl-(Japanese-Version)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/06c951cd-1269-4f46-91ae-958100a0a998/My-Girl-(Japanese-Version)'> 
+			My Girl (Japanese Version).m...
+			<!--My Girl (Japanese Version).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/arceo'>
+                          Arceo
+			</a>
+			
+			<span class="desc">
+				TaeYang&#39;s solo in Japanese.
+			</span>
+			
+			<span>3057 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Japanese airport'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url();'> 
+			<a href='/doc/09eccb45-0b44-4709-a4f6-a7279952545e/Japanese-airport' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/09eccb45-0b44-4709-a4f6-a7279952545e/Japanese-airport'> 
+			Japanese airport.mp3
+			<!--Japanese airport.mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/k1anaway'>
+                          k1an_away
+			</a>
+			
+			<span class="desc">
+				Sony ringtone
+			</span>
+			
+			<span>2051 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+		<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content" style="text-align:center;">
+				<div>
+				
+					<!-- ca-pub-3980696689991450/Viewer_250x250_right_bottom -->
+					<script type='text/javascript'>
+						GA_googleFillSlot("Viewer_250x250_right_bottom");
+					</script>
+				</div>
+				</div>
+			</div>
+
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+		</div>
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Aqua - Barbie Girl (Japanese)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url(http://userthumb0.esnips.com/userThumb/m/a5234816-22b8-41a7-87b0-3a084e424567/1/?du=8726f054-b92f-1029-8a96-0017a4493db2);'> 
+			<a href='/doc/0c72511b-0662-46c5-847b-a0a24bfcb459/Aqua---Barbie-Girl-(Japanese)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/0c72511b-0662-46c5-847b-a0a24bfcb459/Aqua---Barbie-Girl-(Japanese)'> 
+			Aqua - Barbie Girl (Japanese...
+			<!--Aqua - Barbie Girl (Japanese).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/kou-chan'>
+                          Kou-chan
+			</a>
+			
+			<span class="desc">
+				I&#39;ve heard debates on this one. It really doesn&#39;t sound Japanese on the whole, but certain parts slighlty do...I&#39;ve also heard it said this is supposedly sung in partial-Japanese, or otherwise that it&#39;s Japanese as sung by someone who&#39;s Russian or Chinese. I dunno...
+			</span>
+			
+			<span>4280 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='Business'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url();'> 
+			<a href='/doc/156aac5b-088e-4e73-b216-516e12734015/Business' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/156aac5b-088e-4e73-b216-516e12734015/Business'> 
+			Business.mp3
+			<!--Business.mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/user/thegreatfunkyd'>
+                          thegreatfunkyd
+			</a>
+			
+			<span class="desc">
+				Business Blues... Old suit &amp; hole in my socks
+			</span>
+			
+			<span>1660 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+
+
+
+<div class="main_box item_right">
+			<div class="main_box_top">
+				<div class="top_left"></div>
+				<div class="top_middel"></div>
+				<div class="top_right"></div>						
+			</div>
+			<div class="main_box_middle">
+				<div class="content">
+
+		
+			    
+			    
+		
+
+
+
+
+
+
+
+
+<div class="item_rel" onClick="javascript: urchinTracker('/events/viewer/link/related');">
+	<div class="item_rel_thumb">
+		
+			   
+			   
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				   
+				   
+	
+
+
+
+
+
+
+
+
+ 
+	<div class="audioThumb" align="left" style='background-image: url(http://res1.esnips.com/escentral/styles//thumbs/thumb.audio.gif);' title='NhuCanhVacBay (Japanese)'>
+    
+		
+		  
+		
+
+		
+	
+			<div  style='background-image: url();'> 
+			<a href='/doc/16880f92-3245-454f-be50-ebfcd71851e5/NhuCanhVacBay-(Japanese)' class='fileThumbLink'> 
+			<img src='http://res1.esnips.com/escentral/styles//thumbs/playUp.gif' border="0" srcover='http://res1.esnips.com/escentral/styles//thumbs/playMoveover.gif' srcdown='http://res1.esnips.com/escentral/styles//thumbs/playClicked.gif'/>			</a>		  </div>						 
+			 
+			 				 
+		 
+  
+  </div>
+ 	
+
+
+	</div>
+	<div class="item_rel_content">
+		<a class="item_rel_name" href='/doc/16880f92-3245-454f-be50-ebfcd71851e5/NhuCanhVacBay-(Japanese)'> 
+			NhuCanhVacBay (Japanese).mp3
+			<!--NhuCanhVacBay (Japanese).mp3-->
+		</a>
+		<p>
+			<a class="usr_name" href='/profile/2c40a2e1-9c07-487e-9d53-c6e3e9765265'>
+                          dragon9999ru
+			</a>
+			
+			<span>336 Views</span>
+		</p>
+	</div>
+	<div class="fix"></div>
+</div>
+
+
+
+			</div>
+			</div>
+			<div class="main_box_bottom">
+				<div class="bottom_left"></div>
+				<div class="bottom_middel"></div>
+				<div class="bottom_right"></div>						
+			</div>
+</div>
+	
+
+
+
+						
+
+	
+
+
+							</div>
+						</div>
+					</div>
+				
+				
+			</div>
+			
+			<script type="text/javascript">
+			
+			var countries=new ddtabcontent("doctabs")
+			countries.setpersist(true)
+			countries.setselectedClassTarget("link") //"link" or "linkparent"
+			countries.init()
+			
+			</script>
+		</div>
+</div>
+
+
+				
+
+									
+			
+		</div>
+		
+
+
+
+
+
+
+
+
+
+<!-- -->
+	
+		<div class="main_content_left">
+			<div class="fix"></div>
+			<div class="delete_scribd">
+				
+        	</div>
+	        <div class="img_sizes">
+        		<div class="contents">	        				
+				</div>	
+      		</div>	
+			<div class="doc_lnks"></div>
+      		<div class="fix"></div>
+		</div>
+		
+
+		
+		
+ <div class="fix" style="height:50px;"></div>
+  <div style="display:block;">
+
+	<!-- ### Loading img ### -->
+		<div id="indicator" style="display:none; padding-left:10px">
+			<img src="http://res0.esnips.com/images/indicator.gif" border="0" align="absmiddle"/>
+		</div>	
+		<div class="fix"></div>
+	<!-- ### Unknown area### -->
+		<table>
+				
+		</table>		
+		<div style="margin-top:5px;"></div>
+			
+		<div style="padding-bottom:10px; padding-top: 10px;"></div>
+	</div>
+	<!-- end -->
+  
+<div class="download_pop_c" id="download_pop_c" >			
+	<h3>Critical upgrade required</h3>
+	<div class="cls_pop_c" onClick='clseMe("download_pop_c")'><img src="/media/images/sign_up/closer.gif" /></div>
+	<div class="download_pop">
+		<p>
+			Dear eSnips user, 
+			From now on all files can only be downloaded <br/>
+			through the <span>eSnips Downloader</span>. <br/>
+			Install it and immediately gain access to all  <br/>
+			the great content on eSnips!  <br/>
+			It's free! And the file you requested will <br/>
+			begin downloading automatically <br/> 
+		</p>
+	</div>
+	<div class="download_pop_btns">
+		<a class="shw" onClick='clseMe("download_pop_c")' href='http://eis.esnips.com/downloader/eSnipsDownloader.exe'><img src="/media/images/download_pop/downloadBtn.gif" title="start survey" alt="start survey" /></a>					
+	</div>	
+</div>	
+<div class="popUpbg"></div>
+</form>
+		
+</div>
+
+<div style="display:none">
+			<form name="FormDocumentComment" method="post" action="/DocumentCommentAction.ns" id="FormDocumentComment">
+				<input type="hidden" name="ns_EventTarget" value="" />
+				<input type="hidden" name="ns_EventArgument" value="" />
+				<input type="hidden" name="ID" value="5cca6f4c-8799-420a-a797-8c37fba586cd"/>
+				<input type="hidden" name="referrer" value="/ViewDocumentAction.ns?action=refreshViewer&id=5cca6f4c-8799-420a-a797-8c37fba586cd"/>
+				
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+<div class="frm_content" id="frm_content">
+	<textarea name="comment" id="txtComment"></textarea>
+	
+	
+	
+	<div id="error_empty"></div>
+	<div class="fix"></div>
+	<p>Type  the letter bellow or <a href="javascript:ns_reload('jcaptcha')" class="CommandLink"> Show other letters </a></p>
+	<div class="capcha">
+		<img src="/jcaptcha" name="jcaptcha" class="GrayBorder" id="jcaptcha" />    		 			
+		<div class="fix"></div>
+		<input name="jcaptcha_response" type="text" class="editBoxSmall" size="15"/>
+	</div>
+</div>
+<div class="btn_cover">
+	<input type="button" id="commment_submit" value="Save Comment" />
+    <input type="button" id="commment_cancel" class="button"  value="Cancel" />
+</div>
+
+	</form>
+</div>
+<script>
+$("#comment").html($("#FormDocumentComment").html());
+$("#FormDocumentComment").remove();
+</script>
+			<div class="fix"></div>
+			
+			<!-- ################## Footer v  ################## -->
+			
+
+
+
+
+
+
+
+
+
+			<div class="footerCover">
+			
+				<div class="footerContentCover">
+					<div class="footerContent">
+						<!--  -->		
+			
+						<div class="listBox">
+							<h3>Services</h3>
+							<ul>
+								<!-- <li><a href='http://statusfairy.esnips.com/?aff=esnipsweb'  title="Status fairy" target="_blank">Status fairy</a></li>-->
+								<li><a href='http://store.appsnips.com' class="subCatagoryContent promoted" title="Online App Store">AppSnips</a></li>
+								<li><a href='http://m.esnips.com'  title="eSnips mobile" target="_blank">esnips mobile </a></li>
+								<li><a href='http://www.getjar.com/products/29634/eSnips'  title="eSnips Mobile Application" target="_blank">Mobile Application</a></li>
+								<li><a href='/download/' class="subCatagoryContent" title="eSnips uploader">eSnips uploader </a></li>
+									
+							</ul>
+							<ul class="second">
+								<li><a href='/HtmlmailAction.ns' title="Share eSnips">Share eSnips </a></li>
+								<li><a href='http://forum.esnips.com/forums/list.page' title="Forum">Forum</a></li>
+								<li><a href='/CenterWidgetAction.ns' title="Widgets">Widgets </a></li>
+								<li><a href='/CenterPlayListAction.ns' title="Playlists">Playlists </a></li>							
+							</ul>
+						</div>
+
+						<div class="footerDivider"></div>	
+					
+						<div class="listBox">
+							<h3>Contact</h3>
+							<ul>
+								<li><a href='/statments/about.jsp' title="About Us">About Us </a></li>
+								<li><a href='/support/'  title="Support">Support </a></li>
+								<li><a href='/statments/terms.jsp'  title="Terms of use">Terms of use </a></li>
+								<li><a href='/statments/copyright.jsp' title="Copyright policy">Copyright policy </a></li>	
+							</ul>
+							<ul class="second">
+								<li><a href='/statments/privacy.jsp' title="Privacy policy">Privacy policy </a></li>
+								<li><a href='/advertise/indexForm.jsp' title="Advertise with us">Advertise with us </a></li>
+							</ul>
+						</div>
+							
+					</div>
+					
+					<div class="copyrights"><p>Copyrights © 2006-2011 eSnips LTD. - <a href="/statments/terms.jsp">terms of use</a> | <a href="/statments/privacy.jsp">privacy policy</a></p></div>
+				</div>
+				<div class="fix"></div>
+			</div>
+			
+				
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<div class="popUp" id="signIpop" >
+		<div class="closer" onclick="clseIt('signIpop');"><img src="/media/images/popup/button_x.png" alt="close" /></div>
+		<div class="popUpTop"><div class="Tleft"></div><div class="Tcenter" ><div class="innerBr" style="width:345px;"></div></div><div class="Tright"></div></div>	
+		<div class="popUpContent">
+			 <div class="popUpContentInner">
+				<div class="popUpContentTxt" style="width:363px;">
+					<form name="FormSignIn" method="post" action="/UserSignInAction.ns?action=signin" id="FormSignIn">
+					<input type="hidden" name="ns_EventTarget" value="" />
+					<input type="hidden" name="ns_EventArgument" value="" />
+					<input type="hidden" name="referrer" value=""/>
+					
+					<div id="handle" style=" min-height: 50px;">
+						<h2>Sign in to eSnips</h2>
+						<div class="member">							
+							<p> | or  <a class="dragoff" href="javascript:popIt('signUpop');" onclick="clseIt('signIpop');" >Sign up</a></p>
+						</div>
+					</div>
+					<div id="forgotSent" class="statusOk" style="width: 100%; float: left;" ></div>
+					
+					<div class="inptCover passwordToggle">
+						<h4>E-mail address</h4>
+						<div class="inptInner">
+							<input type="text" name="email" size="25" value="" onkeypress="return enterPressed(event ,'signInBox')" onblur="validate(this,'email')" class="editbox" id="txtEmail">
+						</div>
+						<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+						<div class="errorDiv"><img src="/media/images/icon_x.png" alt="The Email  you typed Is not valid" /></div>
+					</div>
+							
+					<div class="inptCover passwordToggle">
+						<h4>Password :</h4>
+						<div class="inptInner">
+							<input type="password" name="password" size="25" value="" onkeypress="return enterPressed(event ,'signInBox')" onblur="validate(this,'password')" id="txtPassword">
+						</div>
+						<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+						<div class="errorDiv"><img src="/media/images/icon_x.png" alt="You must enter a valid password" /></div>
+					</div>
+													
+					<div class="forgot"><a href="javascript:forgotPass('Forgot Password');" onclick="clearAllErrMessages();">Forgot your password?</a></div>
+				
+					<div class="inptCover passwordToggle" style="min-height:20px;margin-top:10px;float:left">
+						<div class="inptInner" style="height:12px;width:12px; cursor: default;overflow:visible;" onclick="remember(this);">									
+								<img id="mark" src="/media/images/popup/icon_v_yellow.png" style="float:left;margin:-2px 0px 0px 0px;display:none;">
+								<input type="checkbox" name="rememberMe" value="on" style="height:11px;width:11px;margin:0px;visibility:hidden;" id="chkRememberMe">
+						</div>
+						
+						<div class="termtxt">
+								<p>Remember me on this computer</p>
+						</div>
+						<div class="errorDiv" style="width:90px;"><img src="/media/images/icon_x.png" alt="Please Confirm" /></div>
+						<div class="fix"></div>
+					</div>
+					<div id="signinStatus" class="statusErr"></div>
+					<div class="submitCover passwordToggle">
+						<a onclick="validatPopSign('FormSignIn');">submit</a>											
+					</div>						
+					<div class="fix"></div>			
+					</form>
+					<div class="fix"></div>
+					<form name="FormForgotPassword" method="post" action="/ForgotPasswordAction.ns?action=join" id="FormForgotPassword">
+						<input type="hidden" name="ns_EventTarget" value="" />
+						<input type="hidden" name="ns_EventArgument" value="" />
+						<div class="inptCover passwordToggle" style="display: none;">
+							<h4>Password reminder</h4>
+							<h5>put your Email below:</h5>
+							<div class="inptInner">
+								<div class="innerBorder" style="cursor: auto;">
+									<input type="text" name="email" size="25" value="" onkeypress="return enterPressed(event , 'forgotPassBox')" onblur="validate(this,'email')" class="editbox" id="email">
+								</div>							
+							</div>
+							<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+							<div class="errorDiv"><img src="/media/images/icon_x.png" alt="The Email  you typed Is not valid" /></div>
+							<div class="fix"></div>
+							<div class="discard">
+								<img src="/media/images/sign_up/submit_pass.gif" title="Submit" onClick="javascript:validatForgotForm('FormForgotPassword')"/>
+								<a onclick="forgotPass('Sign in to eSnips');">Discard</a>
+							</div>
+							<div align="left" id="forgotStatus" class="statusErr" style="width: 100%;"></div>					
+						</div>
+						<div class="fix"></div>
+					</form>
+					<div class="fix"></div>
+					
+				</div>
+			</div>
+		</div> 	
+		<div class="popUpBottom"><div class="Bleft"></div><div class="Bcenter"><div class="innerBr" style="width:345px;"></div></div><div class="Bright"></div></div>
+	</div>
+				
+
+
+
+
+
+
+
+
+<base href="http://www.esnips.com/viewdocument/indextabs2.jsp">
+
+<form name="FormNewAccount" method="post" action="/NewAccountAction.ns?action=join" id="FormNewAccount">
+
+<input type="hidden" name="ns_EventTarget" value="" />
+<input type="hidden" name="ns_EventArgument" value="" />
+<input type="hidden" name="referrer" value=""/>
+<input type="hidden" name="ns_LocaTimezoneOffset" value="0" id="ns_LocaTimezoneOffset"/>
+
+<div id="signUpop" class="popUp">
+	<div class="closer" onclick="clseIt('signUpop');"><img src="/media/images/popup/button_x.png" alt="close" /></div>
+	<div class="popUpTop"><div class="Tleft"></div><div class="Tcenter" ><div class="innerBr" style="width:345px;"></div></div><div class="Tright"></div></div>	
+	<div class="popUpContent">
+		 <div class="popUpContentInner">
+			<div class="popUpContentTxt" style="width:363px;">
+				<div id="handleUp" style="min-height: 50px;">
+					<h2>Sign up to eSnips</h2>
+					<div class="member">							
+						<p> | or  <a href="javascript:popIt('signIpop');" onclick="clseIt('signUpop');">Sign in</a></p>
+					</div>				
+				</div>	
+				<div class="inptCover ">
+					<h4>E-mail address</h4>
+					<div class="inptInner">
+						<input type="text" name="email" size="25" value="" onkeypress="return enterPressed(event , 'signUpBox')" onblur="validate(this,'email')" id="txtEmailReg">							
+					</div>
+					<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+					<div class="errorDiv"><img src="/media/images/icon_x.png" alt="The Email  you typed Is not valid" /></div>
+				</div>
+				
+				<div class="inptCover ">
+					<h4>Password :</h4>
+					<div class="inptInner">
+						<input type="password" name="password" size="25" value="" onkeypress="return enterPressed(event , 'signUpBox')" onblur="validate(this,'password')" id="txtPasswordReg" alt="newUserPassword">
+					</div>
+					<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+					<div class="errorDiv"><img src="/media/images/icon_x.png" alt="You need to insert a valid password" /></div>
+				</div>
+				
+				<div class="inptCover ">
+						<h4>Retype Password :</h4>
+						<div class="inptInner">
+								<div class="innerBorder" style="cursor: auto;">
+								<input value="" rel="0" type="password" class="re_type_s" id="re-type-password" name="re-type-password" onclick="changeMe('re-type-password');" onblur="validate(this,'re-type-password'); changeMe('re-type-password');" onkeypress="return enterPressed(event , 'signUpBox')"></input></div>												
+						</div>
+						<script>$('#re-type-password').focus(function(){reTypeHasFocus = true;}).blur(function(){reTypeHasFocus = false;});</script>
+						<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+						<div class="errorDiv"><img src="/media/images/icon_x.png" alt="Oops it doesn't match your password" /></div>				
+				</div>
+				
+				<div class="inptCover ">
+					<h4>Type the letters you see below,<br/>Or <a href="javascript:ns_reload('jcaptchaPop')" > Give me other letters </a></h4>
+					<div class="capchaCover">
+						<img src="/jcaptcha" name="jcaptcha" class="GrayBorder" id="jcaptchaPop" width="235" height="40"/>
+					</div>
+					<div class="inptInner">
+						<input value="" name="jcaptcha_response" id="jcaptcha_response"  type="text" size="15" onkeypress="return enterPressed(event , 'signUpBox')" onblur="validate(this,'captcha')" ></input>
+					</div>
+					<div class="okDiv"><img src="/media/images/icon_v.png" alt="A Ok" /></div>
+					<div class="errorDiv"><img src="/media/images/icon_x.png" alt="Not Ok" /></div>	
+					<div class="fix"></div>
+				</div>
+				
+				<div class="inptCover " style="min-height:20px;">
+					<h4>Please Agree</h4>
+					<div class="fix"></div>
+					<div class="inptInner" style="height:12px;width:12px; cursor: default;" onclick="agreeTerm(this);">
+						<img id="mark" src="/media/images/popup/icon_v_yellow.png" style="float:left;margin:-2px 0px 0px 0px;display:none;">
+						<input type="checkbox" onchange="validate(this,'terms')" name="terms" id="terms" style="height:11px;width:11px;margin:0px;visibility: hidden;"></input>							
+					</div>
+					<div class="termtxt">
+						<p>I understand and agree with eSnips <a href="/statments/terms.jsp">Terms & Conditions</a></p>
+					</div>
+					<div class="errorDiv" style="margin:0px 0px 0px 0px"><img src="/media/images/icon_x.png" alt="Please Confirm" /></div>
+					<div class="fix"></div>
+				</div>
+				
+				<div id="registerStatus" class="statusErr">&nbsp;</div>
+					<div class="submitCover">
+						<a class="register" onclick="validatPopRegisterForm('FormNewAccount','web');">
+							Submit
+						</a>						
+					</div>
+
+			</div>
+		</div>
+	</div> 		
+						
+	<div class="popUpBottom"><div class="Bleft"></div><div class="Bcenter"><div class="innerBr" style="width:345px;"></div></div><div class="Bright"></div></div>
+</div>
+
+</form>
+
+			
+			
+			
+
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-495747-1";
+urchinTracker();
+
+</script>
+			<div class="fix"></div>
+		</div>
+		
+		<!-- ################## Add Infolinks v  ################## -->
+		<script type="text/javascript">var infolink_pid = 17073;</script>
+		<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>	
+	</body>
+</html>
